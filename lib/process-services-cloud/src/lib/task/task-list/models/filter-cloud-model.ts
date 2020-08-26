@@ -34,6 +34,7 @@ export class TaskQueryCloudRequestModel {
     standalone?: boolean;
     priority?: number;
     processDefinitionId?: string;
+    processDefinitionName?: string;
     processInstanceId?: string;
     status?: string;
     maxItems: number;
@@ -58,6 +59,7 @@ export class TaskQueryCloudRequestModel {
             this.standalone = obj.standalone;
             this.priority = obj.priority;
             this.processDefinitionId = obj.processDefinitionId;
+            this.processDefinitionName = obj.processDefinitionName;
             this.processInstanceId = obj.processInstanceId;
             this.status = obj.status;
             this.maxItems = obj.maxItems;

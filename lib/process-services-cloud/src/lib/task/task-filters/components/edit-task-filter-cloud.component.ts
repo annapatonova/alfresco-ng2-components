@@ -30,8 +30,8 @@ import { TaskFilterDialogCloudComponent } from './task-filter-dialog-cloud.compo
 import { TranslationService, UserPreferencesService, UserPreferenceValues } from '@alfresco/adf-core';
 import { AppsProcessCloudService } from '../../../app/services/apps-process-cloud.service';
 import { ApplicationInstanceModel } from '../../../app/models/application-instance.model';
+import { ProcessDefinitionCloud } from 'process-services-cloud/src/lib/models/process-definition-cloud.model';
 import { TaskCloudService } from '../../services/task-cloud.service';
-import { ProcessDefinitionCloud } from 'process-services-cloud/src/lib/process/public-api';
 
 @Component({
     selector: 'adf-cloud-edit-task-filter',
